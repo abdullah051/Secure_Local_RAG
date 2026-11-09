@@ -36,10 +36,10 @@ flowchart TD
 | Google Drive API | Read Google Docs and folder metadata |
 | Python Sync Agent | Discover, export, and synchronize documents |
 | SQLite | Store synchronization state |
-| AnythingLLM | Local RAG interface, workspaces, and document processing |
+| AnythingLLM | Local RAG interface, workspaces, and document processing (Docker or Desktop) |
 | LanceDB | Vector storage managed by AnythingLLM |
 | Ollama | Local model runtime |
-| Llama 3 8B | Chat and answer generation |
+| Llama 3 8B / Hermes 3 8B | Chat and answer generation |
 | `nomic-embed-text` | Text embeddings |
 
 ## Requirements
