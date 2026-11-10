@@ -1,0 +1,27 @@
+# Secrets (keep local only)
+.env
+**/.env
+credentials.json
+**/credentials.json
+
+# Sync Agent virtual environment and runtime data
+.venv/
+sync_agent/.venv/
+data/
+logs/
+tmp/
+sync_agent/data/
+sync_agent/logs/
+sync_agent/tmp/
+
+# AnythingLLM Docker persistent storage
+anythingllm_data/
+
+# Optional local model files / manual backups
+models/*.gguf
+models/*.bin
+
+# Python cache and compiled files
+__pycache__/
+**/__pycache__/
+*.py[cod]
